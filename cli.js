@@ -12,8 +12,9 @@ if (!style) {
   console.log('* grump          *')
   console.log('******************')
   console.log('* istyle github > style.css *')
+  return
 
-})
+}
 
 process.stdout.write(fs.readFileSync(__dirname + '/' + style + '.css', 'utf-8'))
 
