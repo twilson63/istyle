@@ -1,6 +1,6 @@
 {
   "name": "istyle",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "istyle CLI is a tool that takes a name of one of 10 plus markdown styles and writes the style css as stdout, this way you can pipe it to other tools or a file.",
   "bin": {
     "istyle": "./cli.js"
