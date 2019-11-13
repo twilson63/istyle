@@ -8,6 +8,10 @@ if (!style) {
   console.log('*                 *')
   console.log('* Gen stylesheet  *')
   console.log('* ==============  *')
+  console.log('* air             *')
+  console.log('* modest          *')
+  console.log('* splendor        *')
+  console.log('* retro           *')
   console.log('* avenue          *')
   console.log('* amblin          *')
   console.log('* antique         *')
@@ -22,7 +26,7 @@ if (!style) {
 
 }
 
-const styles = ['avenue', 'amblin', 'antique', 'manuscript', 'swiss', 'github', 'grump','kult']
+const styles = ['air', 'modest', 'retro', 'splendor', 'avenue', 'amblin', 'antique', 'manuscript', 'swiss', 'github', 'grump','kult']
 
 if (styles.indexOf(style) < 0) { 
   console.log('No Match Found!')
