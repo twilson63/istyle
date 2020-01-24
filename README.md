@@ -2,14 +2,17 @@
 
 The istyle project is a simple CLI tool that provides a markdown css file to the stdout channel, it works well with the ipress cli system to create nice designs for your markdown pages.
 
+## Getting Started
+
+Just run `istyle [css-style] > style.css`
 
 ```
-istyle github > style.css
+npx istyle github > style.css
 ```
 
 ## What styles can I choose?
 
-* github
+* github - [Example](/examples/github)
 * amblin
 * antique
 * manuscript
